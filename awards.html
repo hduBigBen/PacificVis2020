@@ -10,8 +10,8 @@
     <!-- ==============================================
     CSS
     =============================================== -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" /> <!-- Twitter Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" /> <!-- Twitter Bootstrap Responsive -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/> <!-- Twitter Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/> <!-- Twitter Bootstrap Responsive -->
     <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font Awesome -->
     <link rel="stylesheet" href="css/flexslider.css"> <!-- Flexslider -->
     <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css"/> <!-- Fancybox -->
@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="css/style-responsive.css"> <!-- Main stylesheet responsive -->
 
     <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.flexslider.min.js"></script> <!-- Flexslider -->
     <script type="text/javascript" src="js/jquery.easing.pack.js"></script> <!-- Easing for Fancybox -->
     <script type="text/javascript" src="js/jquery.mousewheel.pack.js"></script> <!-- Mousewheel for Fancybox -->
@@ -35,10 +36,10 @@
 <include src="header.html"></include>
 
 <section class="header" style="height: auto">
-    <div class="inner" >
+    <div class="inner">
         <div class="row" style="margin: 0">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-lg-2 col-md-0"></div>
+            <div class="col-lg-8 col-md-12">
                 <nav class="navbar navbar-default" role="navigation" style="margin: 0;background-color: none">
                     <div class="container-fluid">
                         <div class="navbar-header" style="padding-left: 1.5em">
@@ -86,23 +87,40 @@
 </section>
 
 
-
-
-
-
-
-
-
-
 <section class="teaser" style="background: url('images/landscape_4.jpg');">
-    <div class="row" style="margin: 0">
-        <div class="row col-lg-5 col-lg-offset-7" >
-            <div class="span7 offset5 text-container maintitle col-md-6" >
+    <div class="container-fluid">
+        <div class="col-lg-2 col-md-0"></div>
+        <div class="col-lg-4 col-md-0">
+            <div class="span7  col-lg-8 col-md-5 col-sm-6 text-container maintitle"
+                 style="margin-bottom: 0; height:115px">
                 <h1 style="padding-top: 15px">APRIL 14-17, 2020</h1>
-                <h2>Pan Pacific, TIANJIN</h2>
+                <h2 style="margin-bottom: 0">Pan Pacific, TIANJIN</h2>
             </div>
         </div>
+        <div class="col-lg-4 col-md-0">
+            <div class="span5 featured  col-lg-8 col-md-4 col-lg-offset-4 col-md-offset-3" style="margin-top: 100px;">
+                <h2 class="feature-title">Important Date</h2>
+                <div class="event-recap" id="register">
+                    <div>
+                        <h3>Abstract due : </h3>
+                        <p>Sep. 27, 2019</p>
+                    </div>
+                    <div>
+                        <h3>Full paper due :</h3>
+                        <p> Oct. 4, 2019</p>
+                    </div>
+
+                    <div>
+                        <h3>1st cycle notification :</h3>
+                        <p> Nov. 29, 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-md-0"></div>
     </div>
+
 </section>
 
 
@@ -111,98 +129,34 @@ Intro
 =============================================== -->
 
 <section class="intro white-background" id="intro">
-    <div class="container" >
+    <div class="container">
         <div class="row col-md-4">
 
-            <!-- ==============================================
-            Featured Box
-            =============================================== -->
-            <div class="span4 featured float-left row  col-lg-10 col-md-4" style="padding-left: 0px;">
-                <h2 class="feature-title">Important Date</h2>
-                <div class="event-recap" id="register" >
-                    <div >
-                        <h3>Abstract due	: </h3>
-                        <p>Sep. 27, 2019</p>
-                    </div>
-                    <div >
-                        <h3>Full paper due	:</h3>
-                        <p> Oct. 4, 2019</p>
-                    </div>
+            <!--            &lt;!&ndash; ==============================================-->
+            <!--            Featured Box-->
+            <!--            =============================================== &ndash;&gt;-->
+            <!--            <div class="span4 featured float-left row  col-lg-10 col-md-4" style="padding-left: 0px;min-width: 300px;">-->
+            <!--                <h2 class="feature-title">Important Date</h2>-->
+            <!--                <div class="event-recap" id="register">-->
+            <!--                    <div>-->
+            <!--                        <h3>Abstract due : </h3>-->
+            <!--                        <p>Sep. 27, 2019</p>-->
+            <!--                    </div>-->
+            <!--                    <div>-->
+            <!--                        <h3>Full paper due :</h3>-->
+            <!--                        <p> Oct. 4, 2019</p>-->
+            <!--                    </div>-->
 
-                    <div >
-                        <h3>1st cycle notification		:</h3>
-                        <p> Nov. 29, 2019</p>
-                    </div>
+            <!--                    <div>-->
+            <!--                        <h3>1st cycle notification :</h3>-->
+            <!--                        <p> Nov. 29, 2019</p>-->
+            <!--                    </div>-->
 
-                  <!---  <p>Welcome to PacificVis 2020.</p>
-                    <br>
-                    <a href="#" class="event-button">Registration</a>  ---->
-                </div>
-            </div>
-            <!-- End Featured Box
-            ===============================================
-            <div class="span4 offset1 clearfix float-right" id="about">
-                <h2 class="padding-top">¿Qué es <span>WordPress Córdoba</span>?</h2>
-                <p><a href="#">WordPress</a> Córdoba es un grupo abierto y libre con el objetivo de compartir, aprender, conocer y reunir en Córdoba a personas interesadas en WordPress.
-                </p>
-            </div>
-                -->
+            <!--                    &lt;!&ndash;-  <p>Welcome to PacificVis 2020.</p>-->
+            <!--                      <br>-->
+            <!--                      <a href="#" class="event-button">Registration</a>  &#45;&#45;&ndash;&gt;-->
+            <!--                </div>-->
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!---
-
-        <div class="row">
-            <div class="span12" style="padding:1em">
-                <h4 class="page-header"
-                    style="font-size:18pt;margin: 0 0 0.2em 0">
-                    Full Paper
-                </h4>
-                <p>
-                    PacificVis is a unified visualization symposium, welcoming all areas of visualization research such as information visualization, scientific visualization,
-                    graph and network visualization, visual analytics, and specific applications such as (but not limited to) security, software, and biological
-                    visualization. Authors are invited to submit original and unpublished research and application papers in all areas of visualization.
-                    We encourage papers in any new, novel, and exciting research area that pertains to visualization. <br>
-
-
-                </p>
-            </div>
-        </div>
-
-            <div class="span12">
-
-                <h4 class="page-header"
-                    style="font-size:18pt">
-                    &nbsp;&nbsp;PacificVis 2019 - Visualization Notes
-
-                </h4>
-
-                <p class="text-justify">
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; PacificVis 2019 features a short paper track, called "Visualization
-                    Notes." The purpose of this track is to encourage young researchers to present their work and
-                    discuss with participants including senior researchers there. The submissions can be late-breaking
-                    results or work in progress, while they should be novel enough to attract interest from the
-                    visualization community.
-                </p>
-            </div>
-        </div>
-        --->
         <div class="row">
             <div class="span12" style="padding:1em">
                 <h4 class="page-header"
@@ -211,16 +165,53 @@ Intro
                 </h4>
                 <p>
                     Pending...
-
-
                 </p>
             </div>
         </div>
 
+
+
+
+    <!---
+
+    <div class="row">
+        <div class="span12" style="padding:1em">
+            <h4 class="page-header"
+                style="font-size:18pt;margin: 0 0 0.2em 0">
+                Full Paper
+            </h4>
+            <p>
+                PacificVis is a unified visualization symposium, welcoming all areas of visualization research such as information visualization, scientific visualization,
+                graph and network visualization, visual analytics, and specific applications such as (but not limited to) security, software, and biological
+                visualization. Authors are invited to submit original and unpublished research and application papers in all areas of visualization.
+                We encourage papers in any new, novel, and exciting research area that pertains to visualization. <br>
+
+
+            </p>
+        </div>
     </div>
 
+        <div class="span12">
+
+            <h4 class="page-header"
+                style="font-size:18pt">
+                &nbsp;&nbsp;PacificVis 2019 - Visualization Notes
+
+            </h4>
+
+            <p class="text-justify">
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; PacificVis 2019 features a short paper track, called "Visualization
+                Notes." The purpose of this track is to encourage young researchers to present their work and
+                discuss with participants including senior researchers there. The submissions can be late-breaking
+                results or work in progress, while they should be novel enough to attract interest from the
+                visualization community.
+            </p>
+        </div>
+    </div>
+    --->
 
 
+    </div>
 
 
 </section>

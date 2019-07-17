@@ -10,8 +10,8 @@
     <!-- ==============================================
     CSS
     =============================================== -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" /> <!-- Twitter Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" /> <!-- Twitter Bootstrap Responsive -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/> <!-- Twitter Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/> <!-- Twitter Bootstrap Responsive -->
     <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font Awesome -->
     <link rel="stylesheet" href="css/flexslider.css"> <!-- Flexslider -->
     <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css"/> <!-- Fancybox -->
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style-responsive.css"> <!-- Main stylesheet responsive -->
 
     <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.flexslider.min.js"></script> <!-- Flexslider -->
     <script type="text/javascript" src="js/jquery.easing.pack.js"></script> <!-- Easing for Fancybox -->
     <script type="text/javascript" src="js/jquery.mousewheel.pack.js"></script> <!-- Mousewheel for Fancybox -->
@@ -29,14 +29,14 @@
 
 
 </head>
-<body style="background-color:#e9e9e9" id="top" class="fixed-nav" >
+<body style="background-color:#e9e9e9" id="top" class="fixed-nav">
 
 
 <section class="header" style="height: auto">
-    <div class="inner" >
+    <div class="inner">
         <div class="row" style="margin: 0">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-lg-2 col-md-0"></div>
+            <div class="col-lg-8 col-md-12">
                 <nav class="navbar navbar-default" role="navigation" style="margin: 0;background-color: none">
                     <div class="container-fluid">
                         <div class="navbar-header" style="padding-left: 1.5em">
@@ -83,79 +83,91 @@
 </section>
 
 
-
-
-
-
-
-
-
-
-
 <section class="teaser" style="background: url('images/landscape_4.jpg');">
-    <div class="row" style="margin: 0">
-        <div class="row col-lg-5 col-lg-offset-7" >
-            <div class="span7 offset5 text-container maintitle col-md-6" >
-                <h1>APRIL 14-17, 2020</h1>
-                <h2>Pan Pacific, TIANJIN</h2>
+    <div class="container-fluid">
+        <div class="col-lg-2 col-md-0"></div>
+        <div class="col-lg-4 col-md-0">
+            <div class="span7  col-lg-8 col-md-5 col-sm-6 text-container maintitle"
+                 style="margin-bottom: 0; height:115px">
+                <h1 style="padding-top: 15px">APRIL 14-17, 2020</h1>
+                <h2 style="margin-bottom: 0">Pan Pacific, TIANJIN</h2>
             </div>
         </div>
-    </div>
-</section>
+        <div class="col-lg-4 col-md-0">
+            <div class="span5 featured  col-lg-8 col-md-4 col-lg-offset-4 col-md-offset-3" style="margin-top: 100px;">
+                <h2 class="feature-title">Important Date</h2>
+                <div class="event-recap" id="register">
+                    <div>
+                        <h3>Abstract due : </h3>
+                        <p>Sep. 27, 2019</p>
+                    </div>
+                    <div>
+                        <h3>Full paper due :</h3>
+                        <p> Oct. 4, 2019</p>
+                    </div>
 
+                    <div>
+                        <h3>1st cycle notification :</h3>
+                        <p> Nov. 29, 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-md-0"></div>
+    </div>
+
+</section>
 
 <!-- ==============================================
 Intro
 =============================================== -->
 
 <section class="intro white-background" id="intro">
-    <div class="container" >
+    <div class="container">
         <div class="row col-md-4">
 
             <!-- ==============================================
             Featured Box
             =============================================== -->
-            <div class="span4 featured float-left row  col-lg-10 col-md-4" style="padding-left: 0px;">
-                <h2 class="feature-title">Important Date</h2>
-                <div class="event-recap" id="register" >
-                    <div >
-                        <h3>Abstract due	: </h3>
-                        <p>Sep. 27, 2019</p>
-                    </div>
-                    <div >
-                        <h3>Full paper due	:</h3>
-                        <p> Oct. 4, 2019</p>
-                    </div>
+<!--            <div class="span4 featured float-left row  col-lg-10 col-md-4" style="padding-left: 0px;min-width: 300px;">-->
+<!--                <h2 class="feature-title">Important Date</h2>-->
+<!--                <div class="event-recap" id="register">-->
+<!--                    <div>-->
+<!--                        <h3>Abstract due : </h3>-->
+<!--                        <p>Sep. 27, 2019</p>-->
+<!--                    </div>-->
+<!--                    <div>-->
+<!--                        <h3>Full paper due :</h3>-->
+<!--                        <p> Oct. 4, 2019</p>-->
+<!--                    </div>-->
 
-                    <div >
-                        <h3>1st cycle notification		:</h3>
-                        <p> Nov. 29, 2019</p>
-                    </div>
+<!--                    <div>-->
+<!--                        <h3>1st cycle notification :</h3>-->
+<!--                        <p> Nov. 29, 2019</p>-->
+<!--                    </div>-->
 
 
-                </div>
-            </div>
-            <!-- End Featured Box
-            ===============================================
-            <div class="span4 offset1 clearfix float-right" id="about">
-                <h2 class="padding-top">¿Qué es <span>WordPress Córdoba</span>?</h2>
-                <p><a href="#">WordPress</a> Córdoba es un grupo abierto y libre con el objetivo de compartir, aprender, conocer y reunir en Córdoba a personas interesadas en WordPress.
-                </p>
-            </div>
-                -->
+<!--                </div>-->
+<!--            </div>-->
+
         </div>
 
         <div class="row">
             <div class="span12" style="padding:1em">
                 <h4 class="page-header"
                     style="font-size:18pt;">
-                   Full Paper
+                    Full Paper
                 </h4>
                 <p>
-                    PacificVis is a unified visualization symposium, welcoming all areas of visualization research such as information visualization, scientific visualization,
-                    graph and network visualization, visual analytics, and specific applications such as (but not limited to) security, software, and biological
-                    visualization. Authors are invited to submit original and unpublished research and application papers in all areas of visualization.
-                    We encourage papers in any new, novel, and exciting research area that pertains to visualization. <br>
+                    PacificVis is a unified visualization symposium, welcoming all areas of visualization research such
+                    as information visualization, scientific visualization,
+                    graph and network visualization, visual analytics, and specific applications such as (but not
+                    limited to) security, software, and biological
+                    visualization. Authors are invited to submit original and unpublished research and application
+                    papers in all areas of visualization.
+                    We encourage papers in any new, novel, and exciting research area that pertains to visualization.
+                    <br>
 
 
                 </p>
@@ -164,8 +176,10 @@ Intro
         <div class="span12">
 
             <p>
-                All submitted papers will go through a two-stage review process to guarantee the publication of high-quality papers. All papers accepted by
-                IEEE Pacific Visualization 2020 will be published by IEEE and will be also included in the IEEE Digital Library. Selected papers will be published
+                All submitted papers will go through a two-stage review process to guarantee the publication of
+                high-quality papers. All papers accepted by
+                IEEE Pacific Visualization 2020 will be published by IEEE and will be also included in the IEEE Digital
+                Library. Selected papers will be published
                 directly in IEEE Transactions on Visualization and Computer Graphics (TVCG).
             </p>
         </div>
@@ -184,41 +198,39 @@ Intro
                         <td>Abstract due:</td>
                         <td> Sep. 27, 2019</td>
                     </tr>
-                    <tr  class="topicsli">
+                    <tr class="topicsli">
                         <td>Full paper due:</td>
                         <td> Oct. 4, 2019</td>
                     </tr>
-                    <tr  class="topicsli">
+                    <tr class="topicsli">
                         <td>Reviews due:</td>
                         <td> Nov. 15, 2019</td>
                     </tr>
-                    <tr  class="topicsli">
+                    <tr class="topicsli">
                         <td>1st cycle notification:</td>
                         <td> Nov. 29, 2019</td>
                     </tr>
-                    <tr  class="topicsli">
+                    <tr class="topicsli">
                         <td>Revision due:</td>
                         <td> Dec. 20, 2019</td>
                     </tr>
-                    <tr  class="topicsli">
+                    <tr class="topicsli">
                         <td>2st cycle notification:</td>
                         <td> Jan. 13, 2020</td>
                     </tr>
-                    <tr  class="topicsli">
-                        <td>Camera ready paper due: </td>
+                    <tr class="topicsli">
+                        <td>Camera ready paper due:</td>
                         <td> Jan. 23, 2020</td>
                     </tr>
-                    <tr  class="topicsli">
+                    <tr class="topicsli">
                         <td>All deadlines are due at 9:00 pm Pacific Time (PDT/PST).</td>
-                        <td> </td>
+                        <td></td>
                     </tr>
                 </table>
                 <!--                内容end-->
             </div>
         </div>
         <!--Important Dates end-->
-
-
 
 
         <!--Topics -->
@@ -245,15 +257,17 @@ Intro
                             <li class="topicsli">&nbsp;&nbsp;• Physical Sciences and Engineering</li>
                             <li class="topicsli">&nbsp;&nbsp;• Earth, Space, and Environmental Sciences</li>
                             <li class="topicsli">&nbsp;&nbsp;• Geographic, Geospatial, and Terrain Visualization</li>
-                            <li class="topicsli">&nbsp;&nbsp;• Molecular, Biomedical, Bioinformatics, and Medical Visualization</li>
+                            <li class="topicsli">&nbsp;&nbsp;• Molecular, Biomedical, Bioinformatics, and Medical
+                                Visualization
+                            </li>
                             <li class="topicsli">&nbsp;&nbsp;• Text, Document, and Software Visualization</li>
                             <li class="topicsli">&nbsp;&nbsp;• Social and Information Sciences</li>
                             <li class="topicsli">&nbsp;&nbsp;• Education and Everyday Visualization</li>
                             <li class="topicsli">&nbsp;&nbsp;• Multimedia (Image/Video/Music) Visualization</li>
-<!--                            <li class="topicsli">&nbsp;&nbsp;Any Other Non-Spatial Data or Spatial Data That Is Visualized With A New-->
-<!--                                Spatial-->
-<!--                                Mapping-->
-<!--                            </li>-->
+                            <!--                            <li class="topicsli">&nbsp;&nbsp;Any Other Non-Spatial Data or Spatial Data That Is Visualized With A New-->
+                            <!--                                Spatial-->
+                            <!--                                Mapping-->
+                            <!--                            </li>-->
                         </ul>
                         <br>
                     </div>
@@ -266,9 +280,11 @@ Intro
                         <p style="margin: 0;"><strong>Data-focused Visualization Research:</strong></p>
 
                         <ul>
-                            <li class="topicsli">&nbsp;&nbsp;•	High-dimensional Data, Dimensionality Reduction, and Data Compression
+                            <li class="topicsli">&nbsp;&nbsp;• High-dimensional Data, Dimensionality Reduction, and Data
+                                Compression
                             </li>
-                            <li class="topicsli">&nbsp;&nbsp;•	Multi-field, Multi-modal, Multi-resolution, and Multi-variate Data
+                            <li class="topicsli">&nbsp;&nbsp;• Multi-field, Multi-modal, Multi-resolution, and
+                                Multi-variate Data
                             </li>
                             <li class="topicsli">&nbsp;&nbsp;• Causality and Uncertainty Data</li>
                             <li class="topicsli">&nbsp;&nbsp;• Time Series, Time Varying, Streaming, and Flow Data
@@ -292,7 +308,8 @@ Intro
                             <li class="topicsli">&nbsp;&nbsp;• Extraction of Surfaces</li>
                             <li class="topicsli">&nbsp;&nbsp;• Topology-based and Geometry-based Techniques</li>
                             <li class="topicsli">&nbsp;&nbsp;• Glyph-based Techniques</li>
-                            <li class="topicsli">&nbsp;&nbsp;• Integrating Spatial and Non-spatial Data Visualization</li>
+                            <li class="topicsli">&nbsp;&nbsp;• Integrating Spatial and Non-spatial Data Visualization
+                            </li>
                             <li class="topicsli">&nbsp;&nbsp;• Machine Learning Approaches</li>
                         </ul>
                         <br>
@@ -306,15 +323,22 @@ Intro
                         <p style="margin: 0;"><strong>Graph and Network Visualization Research:</strong></p>
 
                         <ul>
-                            <li class="topicsli">&nbsp;&nbsp;• Design and Experimentation of Graph Drawing Algorithms</li>
-                            <li class="topicsli">&nbsp;&nbsp;• Techniques, Interfaces, and Interaction Methods for Graphs, Trees, and
+                            <li class="topicsli">&nbsp;&nbsp;• Design and Experimentation of Graph Drawing Algorithms
+                            </li>
+                            <li class="topicsli">&nbsp;&nbsp;• Techniques, Interfaces, and Interaction Methods for
+                                Graphs, Trees, and
                                 Other Relational Data
                             </li>
-                            <li class="topicsli">&nbsp;&nbsp;• Visualization of Graphs and Networks in Application Areas</li>
-                            <li class="topicsli">&nbsp;&nbsp;• Interfaces and Interaction Techniques for Graph and Network
+                            <li class="topicsli">&nbsp;&nbsp;• Visualization of Graphs and Networks in Application
+                                Areas
+                            </li>
+                            <li class="topicsli">&nbsp;&nbsp;• Interfaces and Interaction Techniques for Graph and
+                                Network
                                 Visualizations
                             </li>
-                            <li class="topicsli">&nbsp;&nbsp;• Benchmarks and Experimental Analysis for Graph Visualization Systems</li>
+                            <li class="topicsli">&nbsp;&nbsp;• Benchmarks and Experimental Analysis for Graph
+                                Visualization Systems
+                            </li>
                         </ul>
                         <br>
                     </div>
@@ -334,7 +358,9 @@ Intro
                             <li class="topicsli">&nbsp;&nbsp;• Coordinated Multiple Views</li>
                             <li class="topicsli">&nbsp;&nbsp;• View-dependent Visualization</li>
                             <li class="topicsli">&nbsp;&nbsp;• Data Labeling, Editing, and Annotation</li>
-                            <li class="topicsli">&nbsp;&nbsp;• Collaborative, Co-located, and Distributed Visualization</li>
+                            <li class="topicsli">&nbsp;&nbsp;• Collaborative, Co-located, and Distributed
+                                Visualization
+                            </li>
                             <li class="topicsli">&nbsp;&nbsp;• Manipulation and Deformation</li>
                             <li class="topicsli">&nbsp;&nbsp;• Visual Data Mining and Visual Knowledge Discovery</li>
                         </ul>
@@ -345,18 +371,22 @@ Intro
                 <!--   Empirical and Comprehension-focused Visualization Research:             -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <p style="margin: 0;"><strong>Empirical and Comprehension-focused Visualization Research:</strong></p>
+                        <p style="margin: 0;"><strong>Empirical and Comprehension-focused Visualization
+                            Research:</strong></p>
 
                         <ul>
                             <li class="topicsli">&nbsp;&nbsp;• Visual Design and Aesthetics</li>
                             <li class="topicsli">&nbsp;&nbsp;• Illustrative Visualization</li>
                             <li class="topicsli">&nbsp;&nbsp;• Cognition and Perception Issues</li>
-                            <li class="topicsli">&nbsp;&nbsp;• User Studies on Visualization Readability and User Interaction</li>
+                            <li class="topicsli">&nbsp;&nbsp;• User Studies on Visualization Readability and User
+                                Interaction
+                            </li>
                             <li class="topicsli">&nbsp;&nbsp;• Presentation, Dissemination, and Storytelling</li>
                             <li class="topicsli">&nbsp;&nbsp;• Design Studies, Case Studies, and Focus Groups</li>
                             <li class="topicsli">&nbsp;&nbsp;• Task and Requirements Analysis</li>
                             <li class="topicsli">&nbsp;&nbsp;• Metrics and Benchmarks</li>
-                            <li class="topicsli">&nbsp;&nbsp;• Evaluations of All Types: Qualitative, Quantitative, Laboratory, Field,
+                            <li class="topicsli">&nbsp;&nbsp;• Evaluations of All Types: Qualitative, Quantitative,
+                                Laboratory, Field,
                                 and Usability Studies
                             </li>
                             <li class="topicsli">&nbsp;&nbsp;• Use of Eye Tracking and Other Biometric Measures</li>
@@ -374,8 +404,11 @@ Intro
                             <li class="topicsli">&nbsp;&nbsp;• Novel Algorithms and Mathematics</li>
                             <li class="topicsli">&nbsp;&nbsp;• Taxonomies and Models</li>
                             <li class="topicsli">&nbsp;&nbsp;• Methodologies, Discussions, and Frameworks</li>
-                            <li class="topicsli">&nbsp;&nbsp;• Visual Design, Visualization System, and Toolkit Design</li>
-                            <li class="topicsli">&nbsp;&nbsp;• Data Warehousing, Database Visualization, and Data Mining</li>
+                            <li class="topicsli">&nbsp;&nbsp;• Visual Design, Visualization System, and Toolkit Design
+                            </li>
+                            <li class="topicsli">&nbsp;&nbsp;• Data Warehousing, Database Visualization, and Data
+                                Mining
+                            </li>
                             <li class="topicsli">&nbsp;&nbsp;• Collaborative and Distributed Visualization</li>
                         </ul>
                         <br>
@@ -420,12 +453,15 @@ Intro
                 <!--                内容-->
                 <p>
                     Papers are to be submitted online through the new Precision Conference
-                    System (<a href="https://new.precisionconference.com/user/login?society=vgtc"  target = "_blank"  style="text-decoration:underline;">Click</a>) at the PacificVis 2020 Papers track.
+                    System (<a href="https://new.precisionconference.com/user/login?society=vgtc" target="_blank"
+                               style="text-decoration:underline;">Click</a>) at the PacificVis 2020 Papers track.
                 </p>
                 <p>
                     Original unpublished papers of up to ten (10) pages (two-column,
                     single-spaced, 9 point font, including figures, tables, and references) are invited. Manuscripts
-                    must be written in English and follow the <a href="http://junctionpublishing.org/vgtc/Track/pacvis.html"  target = "_blank"  style="text-decoration:underline;">formatting guidelines</a>. Reviewing will be double-blind,
+                    must be written in English and follow the <a
+                        href="http://junctionpublishing.org/vgtc/Track/pacvis.html" target="_blank"
+                        style="text-decoration:underline;">formatting guidelines</a>. Reviewing will be double-blind,
                     please remove all author and affiliation information from submissions and supplemental files. Please
                     substitute your paper’s ID number for the author name. Papers should be submitted electronically in
                     Adobe PDF format. Please provide supplemental videos in QuickTime MPEG-4 or DivX version 5, and use
@@ -487,7 +523,7 @@ Intro
                 <!--                人物end·-->
 
                 <p><strong> Email:</strong> <a href="mailto:pvis_papers@pvis.org">pvis_papers@pvis.org</a></p>
-<!--                <p><strong> Email:</strong> pvis_papers@pvis.org</p>-->
+                <!--                <p><strong> Email:</strong> pvis_papers@pvis.org</p>-->
             </div>
         </div>
         <!--Papers Chairs  end-->
@@ -524,7 +560,7 @@ Intro
                     but are not mandatory.
                 </p>
                 <p>
-                     <strong>System papers</strong> present a blend of algorithms, technical
+                    <strong>System papers</strong> present a blend of algorithms, technical
                     requirements, user requirements, and design that solves a major problem. The system that is
                     described is both novel and important, and has been implemented. The rationale for significant
                     design decisions is provided, and the system is compared to documented, best-of-breed systems
@@ -536,7 +572,7 @@ Intro
                 </p>
 
                 <p>
-                     <strong>Application/design study papers</strong> explore the choices
+                    <strong>Application/design study papers</strong> explore the choices
                     made when applying visualization and visual analytics techniques in an application area, for example
                     relating the visual encodings and interaction techniques to the requirements of the target task.
                     Similarly, application/design study papers have been the norm when researchers describe the use of
@@ -553,7 +589,7 @@ Intro
                 </p>
 
                 <p>
-                     <strong>Evaluation papers</strong> explore the usage of visualization
+                    <strong>Evaluation papers</strong> explore the usage of visualization
                     and visual analytics by human users, and typically present an empirical study of visualization
                     techniques or systems. Authors are not necessarily expected to implement the systems used in these
                     studies themselves; the research contribution will be judged on the validity and importance of the
@@ -569,7 +605,7 @@ Intro
                 </p>
 
                 <p>
-                  <strong>Theory/model papers</strong> present new interpretations of the
+                    <strong>Theory/model papers</strong> present new interpretations of the
                     foundational theory of visualization and visual analytics. Implementations are usually not relevant
                     for papers in this category. Papers should focus on basic advancement in our understanding of how
                     visualization techniques complement and exploit properties of human vision and cognition.
@@ -578,10 +614,6 @@ Intro
             </div>
         </div>
         <!-- Paper Types end-->
-
-
-
-
 
 
     </div>
