@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/full_paper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="464" column="55" selection-start-line="464" selection-start-column="55" selection-end-line="464" selection-end-column="55" />
+            <state relative-caret-position="405">
+              <caret line="467" column="20" lean-forward="true" selection-start-line="467" selection-start-column="20" selection-end-line="467" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -255,9 +255,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="511" />
-    <option name="y" value="111" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="251" />
+    <option name="y" value="66" />
     <option name="width" value="1404" />
     <option name="height" value="849" />
   </component>
@@ -330,19 +330,19 @@
       <workItem from="1563245120668" duration="4061000" />
       <workItem from="1563261434898" duration="6090000" />
       <workItem from="1563350026962" duration="14371000" />
-      <workItem from="1564490503949" duration="891000" />
+      <workItem from="1564490503949" duration="2643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64302000" />
+    <option name="totallyTimeSpent" value="66054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="511" y="111" width="1404" height="849" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.09809663" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.07060063" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -659,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/full_paper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="464" column="55" selection-start-line="464" selection-start-column="55" selection-end-line="464" selection-end-column="55" />
+        <state relative-caret-position="405">
+          <caret line="467" column="20" lean-forward="true" selection-start-line="467" selection-start-column="20" selection-end-line="467" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
